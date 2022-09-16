@@ -1,0 +1,1408 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20220916190514">
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css?_v=20220916190514" />
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body popup-show>
+	<div class="wrapper">
+		<header data-aos="fade-down" data-aos-duration="1000" data-aos-anchor-placement="top-center" data-aos-once="true" class="header">
+			<div class="header__container">
+				<div class="header__column header__column_logo">
+					<a href="#" class="header__logo"><img data-src="img/logo.svg" alt="image"></a>
+				</div>
+				<div class="header__column header__column_nav">
+					<div class="header__menu menu">
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li data-goto=".mainpage__destination" data-goto-header class="menu__item"><a href="#" class="menu__link">маршруты</a></li>
+								<li data-goto=".mainpage__foto" data-goto-header class="menu__item"><a href="#" class="menu__link">галерея</a></li>
+								<li data-goto=".mainpage__question" data-goto-header class="menu__item"><a href="#" class="menu__link">вопрос-ответ</a></li>
+								<li data-goto=".footer" class="menu__item"><a href="#" class="menu__link">контакты</a></li>
+								<li class="menu__item"><a data-popup="#popup-booking-base" class="menu__link">забронировать</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+				<div class="header__column header__column_slim">
+					<div data-da=".menu__body, 767" class="header__body">
+						<a href="tel:+79283332645" class="header__phone _icon-header-phone">+7 928 333 26 45</a>
+						<a href="#" data-popup="#popup1" class="header__callback">Перезвоните мне</a>
+					</div>
+
+				</div>
+				<button type="button" class="menu__icon icon-menu"><span></span></button>
+			</div>
+		</header>
+
+		<main class="mainpage">
+			<div data-fullscreen class="mainpage__expedition expedition">
+				<div class="expedition__slider swiper">
+					<div class="expedition__wrapper swiper-wrapper">
+						<div class="expedition__slide expedition__slide_one swiper-slide">
+							<div class="swiper-slide__container">
+								<div class="expedition__content">
+									<div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1000" class="expedition__title">Экскурсии на квадроциклах в Геленджике</div>
+									<div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="2000" class="expedition__text">приезжайте за новыми ощущениями и эмоциями!</div>
+									<button data-goto=".mainpage__destination" type="button" class="expedition__button">Подобрать
+										маршрут</button>
+								</div>
+							</div>
+						</div>
+						<div class="expedition__slide expedition__slide_two swiper-slide">
+							<div class="swiper-slide__container">
+								<div class="expedition__content">
+									<div class="expedition__title">Экскурсии на квадроциклах в Геленджике</div>
+									<div class="expedition__text">приезжайте за новыми ощущениями и эмоциями!</div>
+									<button data-goto=".mainpage__destination" type="button" class="expedition__button">Подобрать
+										маршрут</button>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<div class="mainpage__infolist infolist">
+				<div class="infolist__container">
+					<div class="infolist__list">
+						<div class="infolist__item">
+							<div data-aos="fade-right" data-aos-duration="1500" data-aos-once="true" class="item-infolist">
+								<div class="item-infolist__image"><img src="img/infolist/wood.svg" alt="image"></div>
+								<div class="item-infolist__title">Увлекательные экскурсии</div>
+								<div class="item-infolist__text">Маршруты от лесных дорожек
+									до полного бездорожья!</div>
+							</div>
+						</div>
+						<div data-aos="fade-right" data-aos-duration="1500" data-aos-once="true" class="infolist__item">
+							<div class="item-infolist">
+								<div class="item-infolist__image"><img src="img/infolist/moto.svg" alt="image"></div>
+								<div class="item-infolist__title">Надежная техника</div>
+								<div class="item-infolist__text">18 квадроциклов всех японских брендов</div>
+							</div>
+						</div>
+						<div data-aos="fade-left" data-aos-duration="1500" data-aos-once="true" class="infolist__item">
+							<div class="item-infolist">
+								<div class="item-infolist__image"><img src="img/infolist/head.svg" alt="image"></div>
+								<div class="item-infolist__title">Экипировка бесплатно</div>
+								<div class="item-infolist__text">Необходимая экипировка
+									выдается бесплатно</div>
+							</div>
+						</div>
+						<div data-aos="fade-left" data-aos-duration="1500" data-aos-once="true" class="infolist__item">
+							<div class="item-infolist">
+								<div class="item-infolist__image"><img src="img/infolist/instructor.svg" alt="image"></div>
+								<div class="item-infolist__title">Опытные инструктора</div>
+								<div class="item-infolist__text">Обеспечат полную безопасность Вашего отдыха</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<section class="mainpage__destination destination">
+				<div class="destination__container">
+					<h2 class="destination__title title">Наши маршруты</h2>
+					<div class="destination__rows">
+						<div data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" class="destination__body body-destination">
+							<div class="body-destination__sub-title">базовый</div>
+							<div class="body-destination__price">от 4000 ₽</div>
+							<div class="body-destination__specification specification-list">
+								<div class="specification-list__time _icon-travel-time">Время в пути: &nbsp <span>1,5 - 2
+										часа</span></div>
+								<div class="specification-list__location _icon-location">Расстояние: &nbsp <span>20 - 25
+										км</span></span></div>
+								<div class="specification-list__level _icon-star-skill">Сложность: &nbsp
+									<span>3***</span></span>
+								</div>
+							</div>
+							<div class="body-destination__run _icon-travelRun">маршрут</div>
+							<div class="body-destination__text">Смотровая - Родник - Камень Джигита - Адербиевка - Гора Нексис
+								- Грозовые Ворота</div>
+							<div class="body-destination__btn">
+								<button data-aos="fade-right" data-aos-duration="1500" data-aos-once="true" data-popup="#popup-tour" class="body-destination__buttonLeft">Подробнее</button>
+								<button data-aos="fade-left" data-aos-duration="1500" data-aos-once="true" data-popup="#popup-booking-base" class="body-destination__buttonRight">Забронировать</button>
+							</div>
+						</div>
+						<div data-aos="fade-left" data-aos-duration="1000" data-aos-once="true" class="destination__block">
+							<div class="destination__slider swiper">
+								<div data-gallery class="destination__wrapper swiper-wrapper">
+									<a href="img/destination/travel1.jpg" class="destination__slide swiper-slide">
+										<div class="destination__image-ibg">
+											<picture><source data-srcset="img/destination/travel1.webp" type="image/webp"><img data-src="img/destination/travel1.jpg" class="swiper-lazy" alt="image"></picture>
+										</div>
+									</a>
+									<a href="img/destination/travel2.jpg" class="destination__slide swiper-slide">
+										<div class="destination__image-ibg">
+											<picture><source data-srcset="img/destination/travel2.webp" type="image/webp"><img data-src="img/destination/travel2.jpg" class="swiper-lazy" alt="image"></picture>
+										</div>
+									</a>
+									<a href="img/destination/travel3.jpg" class="destination__slide swiper-slide">
+										<div class="destination__image-ibg">
+											<picture><source data-srcset="img/destination/travel3.webp" type="image/webp"><img data-src="img/destination/travel3.jpg" class="swiper-lazy" alt="image"></picture>
+										</div>
+									</a>
+									<a href="img/destination/travel4.jpg" class="destination__slide swiper-slide">
+										<div class="destination__image-ibg">
+											<picture><source data-srcset="img/destination/travel4.webp" type="image/webp"><img data-src="img/destination/travel4.jpg" class="swiper-lazy" alt="image"></picture>
+										</div>
+									</a>
+									<a href="img/destination/travel5.jpg" class="destination__slide swiper-slide">
+										<div class="destination__image-ibg">
+											<picture><source data-srcset="img/destination/travel5.webp" type="image/webp"><img data-src="img/destination/travel5.jpg" class="swiper-lazy" alt="image"></picture>
+										</div>
+									</a>
+								</div>
+								<div class="swiper-pagination"></div>
+							</div>
+						</div>
+					</div>
+					<div class="destination__rows">
+						<div data-aos="fade-left" data-aos-duration="1000" data-aos-once="true" class="destination__body body-destination">
+							<div class="body-destination__sub-title">расширенный</div>
+							<div class="body-destination__price">от 16000 ₽</div>
+							<div class="body-destination__specification specification-list">
+								<div class="specification-list__time _icon-travel-time">Время в пути: &nbsp <span>6 - 8
+										часа</span></div>
+								<div class="specification-list__location _icon-location">Расстояние: &nbsp <span>60 - 70
+										км</span></span></div>
+								<div class="specification-list__level _icon-star-skill">Сложность: &nbsp
+									<span>5***</span></span>
+								</div>
+							</div>
+							<div class="body-destination__run _icon-travelRun">маршрут</div>
+							<div class="body-destination__text">Смотровая - Родник - Камень Джигита - Адербиевка - Гора Нексис
+								-
+								-Грозовые Ворота - Шашлыки - Цыгельский водопад (чаша любви) -
+								-Форсаж</div>
+							<div class="body-destination__btn">
+								<button data-aos="fade-right" data-aos-duration="1500" data-aos-once="true" data-popup="#popup-2" class="body-destination__buttonLeft">Подробнее</button>
+								<button data-aos="fade-left" data-aos-duration="1500" data-aos-once="true" data-popup="#popup-booking-base" class="body-destination__buttonRight">Забронировать</button>
+							</div>
+						</div>
+						<div data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" dir="rtl" class="destination__block">
+							<div class="destination__slider swiper">
+								<div data-gallery class="destination__wrapper swiper-wrapper">
+									<a href="img/destination/travel1.jpg" class="destination__slide swiper-slide">
+										<div class="destination__image-ibg">
+											<picture><source data-srcset="img/destination/travel1.webp" type="image/webp"><img data-src="img/destination/travel1.jpg" class="swiper-lazy" alt="image"></picture>
+										</div>
+									</a>
+									<a href="img/destination/travel2.jpg" class="destination__slide swiper-slide">
+										<div class="destination__image-ibg">
+											<picture><source data-srcset="img/destination/travel2.webp" type="image/webp"><img data-src="img/destination/travel2.jpg" class="swiper-lazy" alt="image"></picture>
+										</div>
+									</a>
+									<a href="img/destination/travel3.jpg" class="destination__slide swiper-slide">
+										<div class="destination__image-ibg">
+											<picture><source data-srcset="img/destination/travel3.webp" type="image/webp"><img data-src="img/destination/travel3.jpg" class="swiper-lazy" alt="image"></picture>
+										</div>
+									</a>
+									<a href="img/destination/travel4.jpg" class="destination__slide swiper-slide">
+										<div class="destination__image-ibg">
+											<picture><source data-srcset="img/destination/travel4.webp" type="image/webp"><img data-src="img/destination/travel4.jpg" class="swiper-lazy" alt="image"></picture>
+										</div>
+									</a>
+									<a href="img/destination/travel5.jpg" class="destination__slide swiper-slide">
+										<div class="destination__image-ibg">
+											<picture><source data-srcset="img/destination/travel5.webp" type="image/webp"><img data-src="img/destination/travel5.jpg" class="swiper-lazy" alt="image"></picture>
+										</div>
+									</a>
+								</div>
+								<div class="swiper-pagination"></div>
+							</div>
+						</div>
+					</div>
+					<div class="destination__rows">
+						<div data-aos="fade-right" data-aos-once="true" class="destination__body body-destination">
+							<div class="body-destination__sub-title">Experience</div>
+							<div class="body-destination__price">от 7000 ₽</div>
+							<div class="body-destination__specification specification-list">
+								<div class="specification-list__time _icon-travel-time">Время в пути: &nbsp <span>4 часа</span>
+								</div>
+								<div class="specification-list__location _icon-location">Расстояние: &nbsp <span>40 - 50
+										км</span></span></div>
+								<div class="specification-list__level _icon-star-skill">Сложность: &nbsp
+									<span>5***</span></span>
+								</div>
+							</div>
+							<div class="body-destination__run _icon-travelRun">маршрут</div>
+							<div class="body-destination__text">Форсаж - Голубая бухта – Заброшенная Тур База – Сухогруз Рио –
+								- Форсаж</div>
+							<div class="body-destination__btn">
+								<button data-aos="fade-right" data-aos-duration="1500" data-aos-once="true" data-popup="#popup-3" class="body-destination__buttonLeft">Подробнее</button>
+								<button data-aos="fade-left" data-aos-duration="1500" data-aos-once="true" data-popup="#popup-booking-base" class="body-destination__buttonRight">Забронировать</button>
+							</div>
+						</div>
+						<div data-aos="fade-left" data-aos-once="true" class="destination__block">
+							<div class="destination__slider swiper my-slider-2">
+								<div data-gallery class="destination__wrapper swiper-wrapper">
+									<a href="img/destination/travel1.jpg" class="destination__slide swiper-slide">
+										<div class="destination__image-ibg">
+											<picture><source data-srcset="img/destination/travel1.webp" type="image/webp"><img data-src="img/destination/travel1.jpg" class="swiper-lazy" alt="image"></picture>
+										</div>
+									</a>
+									<a href="img/destination/travel2.jpg" class="destination__slide swiper-slide">
+										<div class="destination__image-ibg">
+											<picture><source data-srcset="img/destination/travel2.webp" type="image/webp"><img data-src="img/destination/travel2.jpg" class="swiper-lazy" alt="image"></picture>
+										</div>
+									</a>
+									<a href="img/destination/travel3.jpg" class="destination__slide swiper-slide">
+										<div class="destination__image-ibg">
+											<picture><source data-srcset="img/destination/travel3.webp" type="image/webp"><img data-src="img/destination/travel3.jpg" class="swiper-lazy" alt="image"></picture>
+										</div>
+									</a>
+									<a href="img/destination/travel4.jpg" class="destination__slide swiper-slide">
+										<div class="destination__image-ibg">
+											<picture><source data-srcset="img/destination/travel4.webp" type="image/webp"><img data-src="img/destination/travel4.jpg" class="swiper-lazy" alt="image"></picture>
+										</div>
+									</a>
+									<a href="img/destination/travel5.jpg" class="destination__slide swiper-slide">
+										<div class="destination__image-ibg">
+											<picture><source data-srcset="img/destination/travel5.webp" type="image/webp"><img data-src="img/destination/travel5.jpg" class="swiper-lazy" alt="image"></picture>
+										</div>
+									</a>
+								</div>
+								<div class="swiper-pagination"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="mainpage__test test">
+				<div class="test__container">
+					<div class="test__question">Затрудняетесь выбрать маршрут?</div>
+					<div class="test__text">Оставьте ваши контакты и мы поможем вам подобрать оптимальную под вас экскурсию
+					</div>
+					<button data-aos="flip-left" data-aos="flip-up" data-aos-duration="1000" data-aos-once="true" data-popup="#popup1" type="button" class="test__button">Подобрать маршрут</button>
+				</div>
+			</div>
+			<section class="mainpage__foto foto">
+				<div class="foto__container">
+					<h2 class="foto__title title">Фото</h2>
+					<div data-aos="flip-up" data-aos-duration="1000" data-aos-once="true" class="foto__slider swiper">
+						<div data-gallery class="foto__wrapper swiper-wrapper">
+							<a href="img/foto/f1.jpg" class="foto__slide swiper-slide">
+								<div class="foto__image-ibg">
+									<picture><source data-srcset="img/foto/f1.webp" type="image/webp"><img data-src="img/foto/f1.jpg" class="swiper-lazy" alt="image"></picture>
+								</div>
+							</a>
+							<a href="img/foto/f2.jpg" class="foto__slide swiper-slide">
+								<div class="foto__image-ibg">
+									<picture><source data-srcset="img/foto/f2.webp" type="image/webp"><img data-src="img/foto/f2.jpg" class="swiper-lazy" alt="image"></picture>
+								</div>
+							</a>
+							<a href="img/foto/f3.jpg" class="foto__slide swiper-slide">
+								<div class="foto__image-ibg">
+									<picture><source data-srcset="img/foto/f3.webp" type="image/webp"><img data-src="img/foto/f3.jpg" class="swiper-lazy" alt="image"></picture>
+								</div>
+							</a>
+							<a href="img/foto/f4.jpg" class="foto__slide swiper-slide">
+								<div class="foto__image-ibg">
+									<picture><source data-srcset="img/foto/f4.webp" type="image/webp"><img data-src="img/foto/f4.jpg" class="swiper-lazy" alt="image"></picture>
+								</div>
+							</a>
+							<a href="img/foto/f5.jpg" class="foto__slide swiper-slide">
+								<div class="foto__image-ibg">
+									<picture><source data-srcset="img/foto/f5.webp" type="image/webp"><img data-src="img/foto/f5.jpg" class="swiper-lazy" alt="image"></picture>
+								</div>
+							</a>
+							<a href="img/foto/f6.jpg" class="foto__slide swiper-slide">
+								<div class="foto__image-ibg">
+									<picture><source data-srcset="img/foto/f6.webp" type="image/webp"><img data-src="img/foto/f6.jpg" class="swiper-lazy" alt="image"></picture>
+								</div>
+							</a>
+							<a href="img/foto/f7.jpg" class="foto__slide swiper-slide">
+								<div class="foto__image-ibg">
+									<picture><source data-srcset="img/foto/f7.webp" type="image/webp"><img data-src="img/foto/f7.jpg" class="swiper-lazy" alt="image"></picture>
+								</div>
+							</a>
+							<a href="img/foto/f8.jpg" class="foto__slide swiper-slide">
+								<div class="foto__image-ibg">
+									<picture><source data-srcset="img/foto/f8.webp" type="image/webp"><img data-src="img/foto/f8.jpg" class="swiper-lazy" alt="image"></picture>
+								</div>
+							</a>
+							<a href="img/foto/f9.jpg" class="foto__slide swiper-slide">
+								<div class="foto__image-ibg">
+									<picture><source data-srcset="img/foto/f9.webp" type="image/webp"><img data-src="img/foto/f9.jpg" class="swiper-lazy" alt="image"></picture>
+								</div>
+							</a>
+							<a href="img/foto/f10.jpg" class="foto__slide swiper-slide">
+								<div class="foto__image-ibg">
+									<picture><source data-srcset="img/foto/f10.webp" type="image/webp"><img data-src="img/foto/f10.jpg" class="swiper-lazy" alt="image"></picture>
+								</div>
+							</a>
+							<a href="img/foto/f11.jpg" class="foto__slide swiper-slide">
+								<div class="foto__image-ibg">
+									<picture><source data-srcset="img/foto/f11.webp" type="image/webp"><img data-src="img/foto/f11.jpg" class="swiper-lazy" alt="image"></picture>
+								</div>
+							</a>
+							<a href="img/foto/f12.jpg" class="foto__slide swiper-slide">
+								<div class="foto__image-ibg">
+									<picture><source data-srcset="img/foto/f12.webp" type="image/webp"><img data-src="img/foto/f12.jpg" class="swiper-lazy" alt="image"></picture>
+								</div>
+							</a>
+						</div>
+						<div class="foto__swiper-pagination"></div>
+					</div>
+				</div>
+			</section>
+			<div class="mainpage__video-module video-module">
+				<div class="video-module__container">
+					<div data-aos="flip-up" data-aos-duration="1500" data-aos-once="true" class="video-module__block">
+						<div class="video-module__text">"Экспедиция в никуда</div>
+						<video id="" poster="img/expedition/fon1.jpg" data-src="files/video1.mp4" class="video-module__item" controls preload="auto" </video>
+					</div>
+				</div>
+			</div>
+			<section class="mainpage__team team">
+				<div class="team__container ">
+					<h2 class="team__title title">Наша команда</h2>
+					<div class="team__items">
+						<div data-aos="flip-left" data-aos-duration="1000" data-aos-once="true" class="team__item item">
+							<div class="item__content">
+								<div class="item__image"><picture><source srcset="img/team/face1.webp" type="image/webp"><img src="img/team/face1.jpg" alt="image"></picture></div>
+								<div class="item__body body-item">
+									<div class="body-item__title">Юлиана</div>
+									<div class="body-item__sub-title">руководитель</div>
+								</div>
+							</div>
+						</div>
+						<div data-aos="flip-left" data-aos-duration="1500" data-aos-once="true" class="team__item item">
+							<div class="item__content">
+								<div class="item__image"><picture><source srcset="img/team/face2.webp" type="image/webp"><img src="img/team/face2.jpg" alt="image"></picture></div>
+								<div class="item__body body-item">
+									<div class="body-item__title">Максим</div>
+									<div class="body-item__sub-title">старший инструктор</div>
+								</div>
+							</div>
+						</div>
+						<div data-aos="flip-left" data-aos-duration="1000" data-aos-once="true" class="team__item item">
+							<div class="item__content">
+								<div class="item__image"><picture><source srcset="img/team/face3.webp" type="image/webp"><img src="img/team/face3.jpg" alt="image"></picture></div>
+								<div class="item__body body-item">
+									<div class="body-item__title">Кристина</div>
+									<div class="body-item__sub-title">администратор</div>
+								</div>
+							</div>
+						</div>
+
+						<div data-aos="flip-left" data-aos-duration="1500" data-aos-once="true" class="team__item item">
+							<div class="item__content">
+								<div class="item__image"><picture><source srcset="img/team/face4.webp" type="image/webp"><img src="img/team/face4.jpg" alt="image"></picture></div>
+								<div class="item__body body-item">
+									<div class="body-item__title">Юрий</div>
+									<div class="body-item__sub-title">старший механик</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="mainpage__warranty warranty">
+				<div class="warranty__container">
+					<h2 class="warranty__title title">Условия предоставления услуг</h2>
+					<div class="warranty__list">
+						<div class="warranty__item item-warranty">
+							<div class="item-warranty__content">
+								<div class="item-warranty__text">При прокате или аренде строго соблюдать правила техники
+									безопасности и все требования инструктора!</div>
+							</div>
+							<div class="item-warranty__content">
+								<div class="item-warranty__text">К управлению <span>НЕ ДОПУСКАЮТСЯ</span> лица младше 16 лет и
+									лица в алкогольном опьянении!</div>
+							</div>
+							<div class="item-warranty__content">
+								<div class="item-warranty__text">Распивать спиртные напитки во время проката, аренды
+									<span>ЗАПРЕЩЕНО!</span> (После? На ваше усмотрение)
+								</div>
+							</div>
+							<div class="item-warranty__content">
+								<div class="item-warranty__text">Управление осуществляйте в меру своих сил и возможностей. Не
+									переоценивайте себя! Это опасно!!!</div>
+							</div>
+							<div class="item-warranty__content">
+								<div class="item-warranty__text">Перед каждым катанием опытный инструктор научит Вас основам
+									управления и будет сопровождать на протяжении всего маршрута.</div>
+							</div>
+							<div class="item-warranty__content">
+								<div class="item-warranty__text">При прокате или аренде строго соблюдать правила техники
+									безопасности и все требования инструктора!</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="mainpage__special special">
+				<div class="special__container">
+					<h2 class="special__title title">Спецпредложения</h2>
+					<div class="special__items">
+						<div data-aos="fade-right" data-aos="flip-up" data-aos-duration="1000" data-aos-once="true" class="special__column">
+							<div class="special__image-ibg"><picture><source data-srcset="img/special/columnLeft.webp" type="image/webp"><img data-src="img/special/columnLeft.jpg" alt="image"></picture></div>
+							<div class="special__body body-special">
+								<div class="body-special__title">Скидка 10%</div>
+								<p>на День Рождение</p>
+								<div class="body-special__text">в честь Дня Рождения - дарим имениннику скидку 10%</div>
+							</div>
+						</div>
+						<div data-aos="fade-left" data-aos="flip-up" data-aos-duration="1000" data-aos-once="true" class="special__column">
+							<div class="special__image-ibg"><picture><source data-srcset="img/special/columnRight.webp" type="image/webp"><img data-src="img/special/columnRight.jpg" alt="image"></picture></div>
+							<div class="special__body body-special">
+								<div class="body-special__title">Скидка 10%</span></div>
+								<div class="body-special__text">клиентам Ex-Kuban на услуги Загородного клуба Ягода Малина
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="mainpage__certificate certificate">
+				<div class="certificate__container">
+					<h2 class="certificate__title title">Подарочный сертификат</h2>
+					<div class="certificate__text">Хотите сделать оригинальный подарок?<br> Подарите незабываемые эмоции -
+						лучший подарок!</div>
+					<div class="certificate__items">
+						<div data-aos="fade-right" data-aos="flip-up" data-aos-duration="1000" data-aos-once="true" class="certificate__column certificate__column-left">
+							<div class="certificate__body body-certificate">
+								<div class="body-certificate__text">Хотите удивить своих близких оригинальным подарком?
+									Подарочный сертификат на экскурсию на квадроциклах станет не просто интересным подарком, но и
+									реальной возможностью приблизить Ваших друзей и близких к новому увлечению.</div>
+								<button data-popup="#popup1" type="button" class="body-certificate__button">Подберем сертификат
+									для вас</button>
+							</div>
+						</div>
+						<div data-aos="fade-left" data-aos="flip-up" data-aos-duration="1000" data-aos-once="true" class="certificate__column certificate__column-right">
+							<div class="certificate__image-ibg"><picture><source data-srcset="img/certificate/certificate.webp" type="image/webp"><img data-src="img/certificate/certificate.jpg" alt="image"></picture>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="mainpage__question question">
+				<div class="question__container">
+					<h2 class="question__title title">Вопросы-ответы</h2>
+					<div class="question__items">
+						<div data-aos="fade-right" data-aos="flip-up" data-aos-duration="1000" data-aos-once="true" class="question__column question__column-left">
+							<div data-spollers class="question__spollers spollers">
+								<div class="spollers__item">
+									<button type="button" data-spoller data-one-spoller data-spoller-close class="spollers__title">Можно ли кататься, если нет опыта?</button>
+									<div class="spollers__body">Большинство наших клиентов без опыта вождения. Не переживайте,
+										инструктор подробно всё объяснит, будет сопровождать Вас на маршруте и помогать на сложных
+										участках.</div>
+								</div>
+								<div class="spollers__item">
+									<button type="button" data-spoller data-spoller-close class="spollers__title">Что входит в
+										экипировку?</button>
+									<div class="spollers__body">Мы выдаем всю необходимую экипировку: шлема, перчатки, сапоги,
+										джерси, куртки, штаны. Есть место для переодевания и где оставить вещи.</div>
+								</div>
+								<div class="spollers__item">
+									<button type="button" data-spoller data-spoller-close class="spollers__title">Можно ли
+										кататься с детьми?</button>
+									<div class="spollers__body">Дети от 8 до 13 лет едут только в багги пристегнутыми ремнями
+										безопасности. Дети с 14 до 16 лет едут на квадроциках доп.пассажиром, без права
+										управления.
+										Самостоятельно управлять квадроциклом можно с 16 лет, строго при согласии родителей.</div>
+								</div>
+								<div class="spollers__item">
+									<button type="button" data-spoller data-spoller-close class="spollers__title">Какие условия
+										оплаты и отмены брони?</button>
+									<div class="spollers__body">Клиент добавляется в график катаний только после 30% предоплаты.
+										Отмена брони менее чем за 3 дня до начала программы - предоплата не возвращается. В
+										остальных случаях возвращаем предоплату,за вычетом фактически понесенных расходов.
+										В случаях если клиент найдет себе замену,то мы вернем ему 100% предоплаты.</div>
+								</div>
+							</div>
+						</div>
+						<div data-aos="fade-left" data-aos="flip-up" data-aos-duration="1000" data-aos-once="true" class="question__column question__column-right rigth-column">
+							<div class="rigth-column__body">
+								<div class="rigth-column__image-ibg"><picture><source data-srcset="img/question/gridicons.webp" type="image/webp"><img data-src="img/question/gridicons.png" alt="image"></picture>
+								</div>
+								<div class="rigth-column__sub-title">Есть вопросы?</div>
+								<div class="rigth-column__text">Не стесняйтесь обращаться к нам,<br>
+									если у вас есть какие-либо вопросы, предложения <br> или идеи для сотрудничества</div>
+								<button data-popup="#popup-question" type="button" class="rigth-column__button">Задать
+									вопрос</button>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</section>
+			<div class="mainpage__additional additional">
+				<div class="additional__container">
+					<div class="additional__title title">Дополнительные услуги</div>
+					<div class="additional__items">
+						<div data-aos="flip-up" data-aos-duration="1000" data-aos-once="true" class="additional__row-top">
+							<div data-aos="flip-left" data-aos-duration="1000" data-aos-once="true" class="additional__item">
+								<div class="additional__body">
+									<div class="additional__image-ibg"><picture><source data-srcset="img/additional/fon1.webp" type="image/webp"><img data-src="img/additional/fon1.jpg" alt="image"></picture>
+									</div>
+									<div class="additional__content">
+										<div class="additional__text">Эвакуация, ремонт
+											квадроциклов</div>
+									</div>
+								</div>
+							</div>
+							<div data-aos="flip-left" data-aos-duration="1000" data-aos-once="true" class="additional__item">
+								<div class="additional__body">
+									<div class="additional__image-ibg"><picture><source data-srcset="img/additional/fon2.webp" type="image/webp"><img data-src="img/additional/fon2.jpg" alt="image"></picture>
+									</div>
+									<div class="additional__content">
+										<div class="additional__text">Фото, видеосъемка</div>
+									</div>
+								</div>
+							</div>
+							<div data-aos="flip-left" data-aos-duration="1000" data-aos-once="true" class="additional__item">
+								<div class="additional__body">
+									<div class="additional__image-ibg"><picture><source data-srcset="img/additional/fon3.webp" type="image/webp"><img data-src="img/additional/fon3.jpg" alt="image"></picture>
+									</div>
+									<div class="additional__content">
+										<div class="additional__text">Транспортировка
+											техники</div>
+									</div>
+								</div>
+							</div>
+							<div data-aos="flip-left" data-aos-duration="1000" data-aos-once="true" class="additional__item">
+								<div class="additional__body">
+									<div class="additional__image-ibg"><picture><source data-srcset="img/additional/fon4.webp" type="image/webp"><img data-src="img/additional/fon4.jpg" alt="image"></picture>
+									</div>
+									<div class="additional__content">
+										<div class="additional__text">Заправка, чекап, мойка</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div data-aos="flip-up" data-aos-duration="1000" data-aos-once="true" class="additional__row-bottom">
+							<div data-aos="flip-left" data-aos-duration="1000" data-aos-once="true" class="additional__item">
+								<div class="additional__body">
+									<div class="additional__image-ibg"><picture><source data-srcset="img/additional/fon5.webp" type="image/webp"><img data-src="img/additional/fon5.jpg" alt="image"></picture>
+									</div>
+									<div class="additional__content">
+										<div class="additional__text">Корпоративы,
+											тимбилдинги</div>
+									</div>
+								</div>
+							</div>
+							<div data-aos="flip-left" data-aos-duration="1000" data-aos-once="true" class="additional__item">
+								<div class="additional__body">
+									<div class="additional__image-ibg"><picture><source data-srcset="img/additional/fon6.webp" type="image/webp"><img data-src="img/additional/fon6.jpg" alt="image"></picture>
+									</div>
+									<div class="additional__content">
+										<div class="additional__text">Выездной кейтеринг</div>
+									</div>
+								</div>
+							</div>
+							<div data-aos="flip-left" data-aos-duration="1000" data-aos-once="true" class="additional__item">
+								<div class="additional__body">
+									<div class="additional__image-ibg"><picture><source data-srcset="img/additional/fon7.webp" type="image/webp"><img data-src="img/additional/fon7.jpg" alt="image"></picture>
+									</div>
+									<div class="additional__content">
+										<div class="additional__text">Индивидуальные
+											маршруты</div>
+									</div>
+								</div>
+							</div>
+							<div data-aos="flip-left" data-aos-duration="1000" data-aos-once="true" class="additional__item">
+								<div class="additional__body">
+									<div class="additional__image-ibg"><picture><source data-srcset="img/additional/fon8.webp" type="image/webp"><img data-src="img/additional/fon8.jpg" alt="image"></picture>
+									</div>
+									<div class="additional__content">
+										<div class="additional__text">Услуги гида</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<a class="noselect"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+					<path d="M0 16.67l2.829 2.83 9.175-9.339 9.167 9.339 2.829-2.83-11.996-12.17z" />
+				</svg></a>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__contact contact-footer">
+					<div data-aos="fade-right" data-aos="flip-up" data-aos-duration="1000" data-aos-once="true" class="contact-footer__content">
+						<div class="contact-footer__title">
+							<h3 class="contact-footer__top-title">Контакты</h3>
+						</div>
+						<div class="contact-footer__items">
+							<div class="contact-footer__item">
+								<div class="contact-footer__body">
+									<div class="contact-footer__logo _icon-house"></div>
+									<div class="contact-footer__text">Город Геленджик</div>
+								</div>
+							</div>
+							<div class="contact-footer__item">
+								<div class="contact-footer__body">
+									<div class="contact-footer__logo _icon-mail"></div>
+									<div class="contact-footer__text">experience@groupgrand.ru</div>
+								</div>
+							</div>
+							<div class="contact-footer__item">
+								<div class="contact-footer__body">
+									<div class="contact-footer__logo _icon-phone"></div>
+									<a href="tel:+79284280062" class="contact-footer__text">+7 928 428-00-62</a>
+								</div>
+							</div>
+							<div class="contact-footer__item">
+								<div class="contact-footer__body">
+									<div class="contact-footer__logo _icon-travel-time"></div>
+									<div class="contact-footer__text">Ежедневно: 9:00 - 19:00
+									</div>
+								</div>
+							</div>
+						</div>
+						<h4 class="contact-footer__sub-title">Написать нам:</h4>
+						<div class="contact-footer__list">
+							<a target="_blank" href="https://web.whatsapp.com/" class="contact-footer__page contact-footer__page-whatsup"></a>
+							<a target="_blank" href="https://www.instagram.com/" class="contact-footer__page contact-footer__page-instagram"></a>
+						</div>
+					</div>
+					<div data-aos="fade-left" data-aos="flip-up" data-aos-duration="1000" data-aos-once="true" data-da=".contact-footer__title, 991" class="contact-footer__maps">
+						<div style="position:relative;overflow:hidden;"><a href="https://yandex.by/maps/10990/gelendgik/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Геленджик</a><a href="https://yandex.by/maps/10990/gelendgik/?ll=38.081455%2C44.559620&utm_medium=mapframe&utm_source=maps&z=15.23" style="color:#eee;font-size:12px;position:absolute;top:14px;">Геленджик — Яндекс Карты</a><iframe src="https://yandex.by/map-widget/v1/-/CCU5zTxH8A" width="100%" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+					</div>
+				</div>
+				<div class="footer__text">© CFMOTO Experience Kuban. Внедорожный полигон CFMOTO и прокат квадроциклов в Геленджике
+				</div>
+			</div>
+		</footer>
+	</div>
+	<!-- 
+<div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+			</div>
+		</div>
+	</div>
+</div>
+ -->
+
+	<div id="popup1" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content ">
+				<button data-close type="button" class="popup__close">Закрыть</button>
+				<div class="popup__text popup-callback">
+					<form action="#" id="form" class="popup-callback__form">
+						<div class="popup-callback__title">Оставить заявку</div>
+						<div class="popup-callback__item">
+							<label for="formName" class="popup-callback__label">Как к Вам обращаться?</label>
+							<div class="popup-callback__block-input">
+								<input id="formName" autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="" class="popup-callback__input _icon-userform">
+								<div class=" popup-callback__logo _icon-userform"></div>
+							</div>
+						</div>
+						<div class="popup-callback__item">
+							<label for="formEmail" class="popup-callback__label">Телефон или WhatsApp</label>
+							<div class="popup-callback__block-input">
+								<input id="formEmail" autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="" class="popup-callback__input">
+								<div class=" popup-callback__logo _icon-phoneform"></div>
+							</div>
+						</div>
+						<button type="submit" class="popup-callback__button">Отправить</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div id="popup-booking-base" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close">Закрыть</button>
+				<div class="popup__text">
+					<div class="popup-booking-base">
+						<div class="popup-booking-base__title">Забронировать маршрут</div>
+						<form action="#" id="form-booking" class="booking__form form">
+							<div class="form__items">
+								<div class="form__item">
+									<label for="formName" class="form__label">Желаемая дата</label>
+									<div class="form__block-input">
+										<input id="formName" autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="дд.мм.гггг" class="form__input">
+										<div class="form__logo _icon-Group"></div>
+									</div>
+								</div>
+								<div class="form__item">
+									<label for="formName" class="form__label">Количество человек</label>
+									<div class="form__block-input form__quantity quantity">
+										<button type="button" class="quantity__button quantity__button_minus"> - </button>
+										<div class="quantity__input">
+											<input autocomplete="off" type="text" name="form[]" value="1">
+										</div>
+										<button type="button" class="quantity__button quantity__button_plus"> + </button>
+									</div>
+								</div>
+								<div class="form__item">
+									<label for="formName" class="form__label">Телефон или WhatsApp</label>
+									<div class="form__block-input">
+										<input id="formName" autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="" class="form__input">
+										<div class="form__logo _icon-phoneform"></div>
+									</div>
+								</div>
+								<div class="form__item">
+									<label for="formName" class="form__label">Как к Вам обращаться?</label>
+									<div class="form__block-input">
+										<input id="formName" autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="" class="form__input">
+										<div class="form__logo _icon-userform"></div>
+									</div>
+								</div>
+							</div>
+							<button type="submit" class="form__button">Отправить</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="popup-question" aria-hidden="true" class="popup popup__question">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close">Закрыть</button>
+				<div class="popup__text">
+					<form action="#" id="form" class="popup-callback__form">
+						<div class="popup-callback__title">Задать вопрос</div>
+						<div class="popup-callback__item">
+							<label for="formName" class="popup-callback__label">Как к Вам обращаться?</label>
+							<div class="popup-callback__block-input">
+								<input id="formName" autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="" class="popup-callback__input _icon-userform">
+								<div class=" popup-callback__logo _icon-userform"></div>
+							</div>
+						</div>
+						<div class="popup-callback__item">
+							<label for="formEmail" class="popup-callback__label">Телефон или WhatsApp</label>
+							<div class="popup-callback__block-input">
+								<input id="formEmail" autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="" class="popup-callback__input popup-callback__input-standart">
+								<div class=" popup-callback__logo _icon-phoneform"></div>
+							</div>
+						</div>
+						<div class="popup-callback__item">
+							<label for="formEmail" class="popup-callback__label">Задайте Ваш вопрос</label>
+							<div class="popup-callback__block-input">
+								<textarea class="popup-callback__input popup-callback__input-wide" name="textarea"></textarea>
+								<div class=" popup-callback__logo"></div>
+							</div>
+						</div>
+						<button type="submit" class="popup-callback__button">Отправить</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div id="popup-tour" aria-hidden="true" class="popup popup__tour">
+		<div class="popup__wrapper">
+			<div class="popup__content popup__content-tour">
+				<button data-close type="button" class="popup__close">Закрыть</button>
+				<div class="popup__text">
+					<div class="popup__tour tour">
+						<div class="tour__content">
+							<div class="tour__top">
+								<div class="tour__body body-tour">
+									<div class="body-tour__sub-title">базовый</div>
+									<div class="body-tour__list list-tour">
+										<div class="list-tour__time _icon-travel-time">Время в пути: &nbsp <span>1,5 - 2
+												часа</span></div>
+										<div class="list-tour__location _icon-location">Расстояние: &nbsp <span>20 - 25
+												км</span></span></div>
+										<div class="list-tour__level _icon-star-skill">Сложность: &nbsp
+											<span>3***</span></span>
+										</div>
+									</div>
+									<div class="body-tour__run _icon-travelRun">маршрут</div>
+									<div class="body-tour__text">Смотровая - Родник - Камень Джигита - Адербиевка - Гора Нексис -
+										Грозовые Ворота</div>
+									<div data-spollers class="spollers base-spollers">
+										<div class="base-spollers__item">
+											<button type="button" data-spoller class="base-spollers__title body-tour__button">Схема маршрута</button>
+											<div class="base-spollers__body"><picture><source srcset="img/tour/run.webp" type="image/webp"><img src="img/tour/run.png" alt="image"></picture></div>
+										</div>
+									</div>
+								</div>
+								<div class="tour__slider swiper">
+									<div data-gallery class="tour__wrapper swiper-wrapper">
+										<a href="img/destination/travel1.jpg" class="tour__slide swiper-slide">
+											<div class="tour__image-ibg">
+												<picture><source data-srcset="img/destination/travel1.webp" type="image/webp"><img data-src="img/destination/travel1.jpg" class="swiper-lazy" alt="image"></picture>
+											</div>
+										</a>
+										<a href="img/destination/travel2.jpg" class="tour__slide swiper-slide">
+											<div class="tour__image-ibg">
+												<picture><source data-srcset="img/destination/travel2.webp" type="image/webp"><img data-src="img/destination/travel2.jpg" class="swiper-lazy" alt="image"></picture>
+											</div>
+										</a>
+										<a href="img/destination/travel3.jpg" class="tour__slide swiper-slide">
+											<div class="tour__image-ibg">
+												<picture><source data-srcset="img/destination/travel3.webp" type="image/webp"><img data-src="img/destination/travel3.jpg" class="swiper-lazy" alt="image"></picture>
+											</div>
+										</a>
+										<a href="img/destination/travel4.jpg" class="tour__slide swiper-slide">
+											<div class="tour__image-ibg">
+												<picture><source data-srcset="img/destination/travel4.webp" type="image/webp"><img data-src="img/destination/travel4.jpg" class="swiper-lazy" alt="image"></picture>
+											</div>
+										</a>
+										<a href="img/destination/travel5.jpg" class="tour__slide swiper-slide">
+											<div class="tour__image-ibg">
+												<picture><source data-srcset="img/destination/travel5.webp" type="image/webp"><img data-src="img/destination/travel5.jpg" class="swiper-lazy" alt="image"></picture>
+											</div>
+										</a>
+									</div>
+									<div class="swiper-pagination tour__swiper-pagination"></div>
+								</div>
+							</div>
+							<div class="tour__description description">
+								<div class="description__title">Описание маршрута</div>
+								<div class="description__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+									minus, nobis, labore sit officiis consectetur similique impedit repellendus adipisci quis iusto
+									excepturi obcaecati nihil autem totam enim. Nobis voluptates assumenda, perferendis
+									necessitatibus est totam illo rerum beatae itaque consectetur aliquid saepe fugit perspiciatis
+									odit repellendus deleniti. Hic obcaecati, reiciendis excepturi at ratione sequi dolorum libero
+									eius. Autem hic voluptatum libero deleniti possimus quod error repellendus recusandae voluptate
+									corporis! Corporis est, temporibus porro omnis consectetur dignissimos voluptatibus voluptates
+									vero dolorum veritatis aperiam, accusamus in blanditiis expedita neque pariatur optio
+									repudiandae quos recusandae alias dolorem accusantium! Totam dicta perferendis minima soluta
+									quaerat!</div>
+							</div>
+							<div class="tour__card card">
+								<div class="card__title">Стоимость экскурсии за 1 квадроцикл:</div>
+								<div class="card__items">
+									<div class="card__item">
+										<div class="card__body">
+											<div class="card__image-ibg">
+												<picture><source data-srcset="img/tour/image1.webp" type="image/webp"><img data-src="img/tour/image1.jpg" alt=""></picture>
+												<button data-popup="#popup-info" type="button" class="card__button"></button>
+											</div>
+											<div class="card__content">
+												<div class="card__sub-title">UFORCE 1000 EPS (U10 EPS)</div>
+												<div class="card__price">4000 ₽</div>
+											</div>
+										</div>
+									</div>
+									<div class="card__item">
+										<div class="card__body">
+											<div class="card__image-ibg">
+												<picture><source data-srcset="img/tour/image2.webp" type="image/webp"><img data-src="img/tour/image2.jpg" alt=""></picture>
+												<button data-popup="#popup-info" type="button" class="card__button"></button>
+											</div>
+											<div class="card__content">
+												<div class="card__sub-title">UCFORCE 1000 EPS (X10 EPS)</div>
+												<div class="card__price">6000 ₽</div>
+											</div>
+										</div>
+									</div>
+									<div class="card__item">
+										<div class="card__body">
+											<div class="card__image-ibg">
+												<picture><source data-srcset="img/tour/image3.webp" type="image/webp"><img data-src="img/tour/image3.jpg" alt=""></picture>
+												<button data-popup="#popup-info" type="button" class="card__button"></button>
+											</div>
+											<div class="card__content">
+												<div class="card__sub-title">CFMOTO CFORCE 600 EPS</div>
+												<div class="card__price">7000 ₽</div>
+											</div>
+										</div>
+									</div>
+									<div class="card__item">
+										<div class="card__body">
+											<div class="card__image-ibg">
+												<picture><source data-srcset="img/tour/image4.webp" type="image/webp"><img data-src="img/tour/image4.jpg" alt=""></picture>
+												<button data-popup="#popup-info" type="button" class="card__button"></button>
+											</div>
+											<div class="card__content">
+												<div class="card__sub-title">CFORCE 400L EPS (X4 EPS)</div>
+												<div class="card__price">8000 ₽</div>
+											</div>
+										</div>
+									</div>
+									<div class="card__item">
+										<div class="card__body">
+											<div class="card__image-ibg">
+												<picture><source data-srcset="img/tour/image5.webp" type="image/webp"><img data-src="img/tour/image5.jpg" alt=""></picture>
+												<button data-popup="#popup-info" type="button" class="card__button"></button>
+											</div>
+											<div class="card__content">
+												<div class="card__sub-title">ZFORCE 1000</div>
+												<div class="card__price">9000 ₽</div>
+											</div>
+										</div>
+									</div>
+									<div class="card__item">
+										<div class="card__body">
+											<div class="card__image-ibg">
+												<picture><source data-srcset="img/tour/image6.webp" type="image/webp"><img data-src="img/tour/image6.jpg" alt=""></picture>
+												<button data-popup="#popup-info" type="button" class="card__button"></button>
+											</div>
+											<div class="card__content">
+												<div class="card__sub-title">UFORCE 1000 EPS (U10 EPS)</div>
+												<div class="card__price">4000 ₽</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="tour__reservation reservation">
+								<div class="reservation__content">
+									<div class="reservation__title">Бронирование онлайн</div>
+									<form action="#" id="form-reservation" class="reservation__form form">
+										<div class="form__items">
+											<div class="form__item">
+												<label for="formName" class="form__label">Желаемая дата</label>
+												<div class="form__block-input">
+													<input id="formName" autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="дд.мм.гггг" class="form__input">
+													<div class="form__logo _icon-Group"></div>
+												</div>
+											</div>
+											<div class="form__item">
+												<label for="formName" class="form__label">Количество человек</label>
+												<div class="form__block-input form__quantity quantity">
+													<button type="button" class="quantity__button quantity__button_minus"> - </button>
+													<div class="quantity__input">
+														<input autocomplete="off" type="text" name="form[]" value="1">
+													</div>
+													<button type="button" class="quantity__button quantity__button_plus"> + </button>
+												</div>
+											</div>
+											<div class="form__item">
+												<label for="formName" class="form__label">Телефон или WhatsApp</label>
+												<div class="form__block-input">
+													<input id="formName" autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="" class="form__input">
+													<div class="form__logo _icon-phoneform"></div>
+												</div>
+											</div>
+											<div class="form__item">
+												<label for="formName" class="form__label">Как к Вам обращаться?</label>
+												<div class="form__block-input">
+													<input id="formName" autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="" class="form__input">
+													<div class="form__logo _icon-userform"></div>
+												</div>
+											</div>
+										</div>
+										<button type="submit" class="form__button">Забронировать</button>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+	<div id="popup-2" aria-hidden="true" class="popup popup__tour">
+		<div class="popup__wrapper">
+			<div class="popup__content popup__content-tour">
+				<button data-close type="button" class="popup__close">Закрыть</button>
+				<div class="popup__text">
+					<div class="popup__tour tour">
+						<div class="tour__content">
+							<div class="tour__top">
+								<div class="tour__body body-tour">
+									<div class="body-tour__sub-title">расширенный</div>
+									<div class="body-tour__list list-tour">
+										<div class="list-tour__time _icon-travel-time">Время в пути: &nbsp <span>6 - 8
+												часа</span></div>
+										<div class="list-tour__location _icon-location">Расстояние: &nbsp <span>60 - 70
+												км</span></span></div>
+										<div class="list-tour__level _icon-star-skill">Сложность: &nbsp
+											<span>5***</span></span>
+										</div>
+									</div>
+									<div class="body-tour__run _icon-travelRun">маршрут</div>
+									<div class="body-tour__text">Смотровая - Родник - Камень Джигита - Адербиевка - Гора Нексис - -Грозовые Ворота - Шашлыки - Цыгельский водопад (чаша любви) - -Форсаж</div>
+									<div data-spollers class="spollers base-spollers">
+										<div class="base-spollers__item">
+											<button type="button" data-spoller class="base-spollers__title body-tour__button">Схема маршрута</button>
+											<div class="base-spollers__body"><picture><source srcset="img/tour/run.webp" type="image/webp"><img src="img/tour/run.png" alt="image"></picture></div>
+										</div>
+									</div>
+								</div>
+								<div class="tour__slider swiper">
+									<div data-gallery class="tour__wrapper swiper-wrapper">
+										<a href="img/destination/travel1.jpg" class="tour__slide swiper-slide">
+											<div class="tour__image-ibg">
+												<picture><source data-srcset="img/destination/travel1.webp" type="image/webp"><img data-src="img/destination/travel1.jpg" class="swiper-lazy" alt="image"></picture>
+											</div>
+										</a>
+										<a href="img/destination/travel2.jpg" class="tour__slide swiper-slide">
+											<div class="tour__image-ibg">
+												<picture><source data-srcset="img/destination/travel2.webp" type="image/webp"><img data-src="img/destination/travel2.jpg" class="swiper-lazy" alt="image"></picture>
+											</div>
+										</a>
+										<a href="img/destination/travel3.jpg" class="tour__slide swiper-slide">
+											<div class="tour__image-ibg">
+												<picture><source data-srcset="img/destination/travel3.webp" type="image/webp"><img data-src="img/destination/travel3.jpg" class="swiper-lazy" alt="image"></picture>
+											</div>
+										</a>
+										<a href="img/destination/travel4.jpg" class="tour__slide swiper-slide">
+											<div class="tour__image-ibg">
+												<picture><source data-srcset="img/destination/travel4.webp" type="image/webp"><img data-src="img/destination/travel4.jpg" class="swiper-lazy" alt="image"></picture>
+											</div>
+										</a>
+										<a href="img/destination/travel5.jpg" class="tour__slide swiper-slide">
+											<div class="tour__image-ibg">
+												<picture><source data-srcset="img/destination/travel5.webp" type="image/webp"><img data-src="img/destination/travel5.jpg" class="swiper-lazy" alt="image"></picture>
+											</div>
+										</a>
+									</div>
+									<div class="swiper-pagination tour__swiper-pagination"></div>
+								</div>
+							</div>
+							<div class="tour__description description">
+								<div class="description__title">Описание маршрута</div>
+								<div class="description__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+									minus, nobis, labore sit officiis consectetur similique impedit repellendus adipisci quis iusto
+									excepturi obcaecati nihil autem totam enim. Nobis voluptates assumenda, perferendis
+									necessitatibus est totam illo rerum beatae itaque consectetur aliquid saepe fugit perspiciatis
+									odit repellendus deleniti. </div>
+							</div>
+							<div class="tour__card card">
+								<div class="card__title">Стоимость экскурсии за 1 квадроцикл:</div>
+								<div class="card__items">
+									<div class="card__item">
+										<div class="card__body">
+											<div class="card__image-ibg">
+												<picture><source data-srcset="img/tour/image1.webp" type="image/webp"><img data-src="img/tour/image1.jpg" alt=""></picture>
+												<button data-popup="#popup-info" type="button" class="card__button"></button>
+											</div>
+											<div class="card__content">
+												<div class="card__sub-title">UFORCE 1000 EPS (U10 EPS)</div>
+												<div class="card__price">4000 ₽</div>
+											</div>
+										</div>
+									</div>
+									<div class="card__item">
+										<div class="card__body">
+											<div class="card__image-ibg">
+												<picture><source data-srcset="img/tour/image2.webp" type="image/webp"><img data-src="img/tour/image2.jpg" alt=""></picture>
+												<button data-popup="#popup-info" type="button" class="card__button"></button>
+											</div>
+											<div class="card__content">
+												<div class="card__sub-title">UCFORCE 1000 EPS (X10 EPS)</div>
+												<div class="card__price">6000 ₽</div>
+											</div>
+										</div>
+									</div>
+									<div class="card__item">
+										<div class="card__body">
+											<div class="card__image-ibg">
+												<picture><source data-srcset="img/tour/image3.webp" type="image/webp"><img data-src="img/tour/image3.jpg" alt=""></picture>
+												<button data-popup="#popup-info" type="button" class="card__button"></button>
+											</div>
+											<div class="card__content">
+												<div class="card__sub-title">CFMOTO CFORCE 600 EPS</div>
+												<div class="card__price">7000 ₽</div>
+											</div>
+										</div>
+									</div>
+									<div class="card__item">
+										<div class="card__body">
+											<div class="card__image-ibg">
+												<picture><source data-srcset="img/tour/image4.webp" type="image/webp"><img data-src="img/tour/image4.jpg" alt=""></picture>
+												<button data-popup="#popup-info" type="button" class="card__button"></button>
+											</div>
+											<div class="card__content">
+												<div class="card__sub-title">CFORCE 400L EPS (X4 EPS)</div>
+												<div class="card__price">8000 ₽</div>
+											</div>
+										</div>
+									</div>
+									<div class="card__item">
+										<div class="card__body">
+											<div class="card__image-ibg">
+												<picture><source data-srcset="img/tour/image5.webp" type="image/webp"><img data-src="img/tour/image5.jpg" alt=""></picture>
+												<button data-popup="#popup-info" type="button" class="card__button"></button>
+											</div>
+											<div class="card__content">
+												<div class="card__sub-title">ZFORCE 1000</div>
+												<div class="card__price">9000 ₽</div>
+											</div>
+										</div>
+									</div>
+									<div class="card__item">
+										<div class="card__body">
+											<div class="card__image-ibg">
+												<picture><source data-srcset="img/tour/image6.webp" type="image/webp"><img data-src="img/tour/image6.jpg" alt=""></picture>
+												<button data-popup="#popup-info" type="button" class="card__button"></button>
+											</div>
+											<div class="card__content">
+												<div class="card__sub-title">UFORCE 1000 EPS (U10 EPS)</div>
+												<div class="card__price">4000 ₽</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="tour__reservation reservation">
+								<div class="reservation__content">
+									<div class="reservation__title">Бронирование онлайн</div>
+									<form action="#" id="form-reservation" class="reservation__form form">
+										<div class="form__items">
+											<div class="form__item">
+												<label for="formName" class="form__label">Желаемая дата</label>
+												<div class="form__block-input">
+													<input id="formName" autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="дд.мм.гггг" class="form__input">
+													<div class="form__logo _icon-Group"></div>
+												</div>
+											</div>
+											<div class="form__item">
+												<label for="formName" class="form__label">Количество человек</label>
+												<div class="form__block-input form__quantity quantity">
+													<button type="button" class="quantity__button quantity__button_minus"> - </button>
+													<div class="quantity__input">
+														<input autocomplete="off" type="text" name="form[]" value="1">
+													</div>
+													<button type="button" class="quantity__button quantity__button_plus"> + </button>
+												</div>
+											</div>
+											<div class="form__item">
+												<label for="formName" class="form__label">Телефон или WhatsApp</label>
+												<div class="form__block-input">
+													<input id="formName" autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="" class="form__input">
+													<div class="form__logo _icon-phoneform"></div>
+												</div>
+											</div>
+											<div class="form__item">
+												<label for="formName" class="form__label">Как к Вам обращаться?</label>
+												<div class="form__block-input">
+													<input id="formName" autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="" class="form__input">
+													<div class="form__logo _icon-userform"></div>
+												</div>
+											</div>
+										</div>
+										<button type="submit" class="form__button">Забронировать</button>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="popup-3" aria-hidden="true" class="popup popup__tour">
+		<div class="popup__wrapper">
+			<div class="popup__content popup__content-tour">
+				<button data-close type="button" class="popup__close">Закрыть</button>
+				<div class="popup__text">
+					<div class="popup__tour tour">
+						<div class="tour__content">
+							<div class="tour__top">
+								<div class="tour__body body-tour">
+									<div class="body-tour__sub-title">EXPERIENCE</div>
+									<div class="body-tour__list list-tour">
+										<div class="list-tour__time _icon-travel-time">Время в пути: &nbsp <span>4
+												часа</span></div>
+										<div class="list-tour__location _icon-location">Расстояние: &nbsp <span>40 - 50
+												км</span></span></div>
+										<div class="list-tour__level _icon-star-skill">Сложность: &nbsp
+											<span>5***</span></span>
+										</div>
+									</div>
+									<div class="body-tour__run _icon-travelRun">маршрут</div>
+									<div class="body-tour__text">Форсаж - Голубая бухта – Заброшенная Тур База – Сухогруз Рио – - Форсаж</div>
+									<div data-spollers class="spollers base-spollers">
+										<div class="base-spollers__item">
+											<button type="button" data-spoller class="base-spollers__title body-tour__button">Схема маршрута</button>
+											<div class="base-spollers__body"><picture><source srcset="img/tour/run.webp" type="image/webp"><img src="img/tour/run.png" alt="image"></picture></div>
+										</div>
+									</div>
+								</div>
+								<div class="tour__slider swiper">
+									<div data-gallery class="tour__wrapper swiper-wrapper">
+										<a href="img/destination/travel1.jpg" class="tour__slide swiper-slide">
+											<div class="tour__image-ibg">
+												<picture><source data-srcset="img/destination/travel1.webp" type="image/webp"><img data-src="img/destination/travel1.jpg" class="swiper-lazy" alt="image"></picture>
+											</div>
+										</a>
+										<a href="img/destination/travel2.jpg" class="tour__slide swiper-slide">
+											<div class="tour__image-ibg">
+												<picture><source data-srcset="img/destination/travel2.webp" type="image/webp"><img data-src="img/destination/travel2.jpg" class="swiper-lazy" alt="image"></picture>
+											</div>
+										</a>
+										<a href="img/destination/travel3.jpg" class="tour__slide swiper-slide">
+											<div class="tour__image-ibg">
+												<picture><source data-srcset="img/destination/travel3.webp" type="image/webp"><img data-src="img/destination/travel3.jpg" class="swiper-lazy" alt="image"></picture>
+											</div>
+										</a>
+										<a href="img/destination/travel4.jpg" class="tour__slide swiper-slide">
+											<div class="tour__image-ibg">
+												<picture><source data-srcset="img/destination/travel4.webp" type="image/webp"><img data-src="img/destination/travel4.jpg" class="swiper-lazy" alt="image"></picture>
+											</div>
+										</a>
+										<a href="img/destination/travel5.jpg" class="tour__slide swiper-slide">
+											<div class="tour__image-ibg">
+												<picture><source data-srcset="img/destination/travel5.webp" type="image/webp"><img data-src="img/destination/travel5.jpg" class="swiper-lazy" alt="image"></picture>
+											</div>
+										</a>
+									</div>
+									<div class="swiper-pagination tour__swiper-pagination"></div>
+								</div>
+							</div>
+							<div class="tour__description description">
+								<div class="description__title">Описание маршрута</div>
+								<div class="description__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+									minus, nobis, labore sit officiis consectetur similique impedit repellendus adipisci quis iusto
+									excepturi obcaecati nihil autem totam enim. Nobis voluptates assumenda, perferendis
+									necessitatibus est totam illo rerum beatae itaque consectetur aliquid saepe fugit perspiciatis
+									odit repellendus deleniti. </div>
+							</div>
+							<div class="tour__card card">
+								<div class="card__title">Стоимость экскурсии за 1 квадроцикл:</div>
+								<div class="card__items">
+									<div class="card__item">
+										<div class="card__body">
+											<div class="card__image-ibg">
+												<picture><source data-srcset="img/tour/image1.webp" type="image/webp"><img data-src="img/tour/image1.jpg" alt=""></picture>
+												<button data-popup="#popup-info" type="button" class="card__button"></button>
+											</div>
+											<div class="card__content">
+												<div class="card__sub-title">UFORCE 1000 EPS (U10 EPS)</div>
+												<div class="card__price">4000 ₽</div>
+											</div>
+										</div>
+									</div>
+									<div class="card__item">
+										<div class="card__body">
+											<div class="card__image-ibg">
+												<picture><source data-srcset="img/tour/image2.webp" type="image/webp"><img data-src="img/tour/image2.jpg" alt=""></picture>
+												<button data-popup="#popup-info" type="button" class="card__button"></button>
+											</div>
+											<div class="card__content">
+												<div class="card__sub-title">UCFORCE 1000 EPS (X10 EPS)</div>
+												<div class="card__price">6000 ₽</div>
+											</div>
+										</div>
+									</div>
+									<div class="card__item">
+										<div class="card__body">
+											<div class="card__image-ibg">
+												<picture><source data-srcset="img/tour/image3.webp" type="image/webp"><img data-src="img/tour/image3.jpg" alt=""></picture>
+												<button data-popup="#popup-info" type="button" class="card__button"></button>
+											</div>
+											<div class="card__content">
+												<div class="card__sub-title">CFMOTO CFORCE 600 EPS</div>
+												<div class="card__price">7000 ₽</div>
+											</div>
+										</div>
+									</div>
+									<div class="card__item">
+										<div class="card__body">
+											<div class="card__image-ibg">
+												<picture><source data-srcset="img/tour/image4.webp" type="image/webp"><img data-src="img/tour/image4.jpg" alt=""></picture>
+												<button data-popup="#popup-info" type="button" class="card__button"></button>
+											</div>
+											<div class="card__content">
+												<div class="card__sub-title">CFORCE 400L EPS (X4 EPS)</div>
+												<div class="card__price">8000 ₽</div>
+											</div>
+										</div>
+									</div>
+									<div class="card__item">
+										<div class="card__body">
+											<div class="card__image-ibg">
+												<picture><source data-srcset="img/tour/image5.webp" type="image/webp"><img data-src="img/tour/image5.jpg" alt=""></picture>
+												<button data-popup="#popup-info" type="button" class="card__button"></button>
+											</div>
+											<div class="card__content">
+												<div class="card__sub-title">ZFORCE 1000</div>
+												<div class="card__price">9000 ₽</div>
+											</div>
+										</div>
+									</div>
+									<div class="card__item">
+										<div class="card__body">
+											<div class="card__image-ibg">
+												<picture><source data-srcset="img/tour/image6.webp" type="image/webp"><img data-src="img/tour/image6.jpg" alt=""></picture>
+												<button data-popup="#popup-info" type="button" class="card__button"></button>
+											</div>
+											<div class="card__content">
+												<div class="card__sub-title">UFORCE 1000 EPS (U10 EPS)</div>
+												<div class="card__price">4000 ₽</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="tour__reservation reservation">
+								<div class="reservation__content">
+									<div class="reservation__title">Бронирование онлайн</div>
+									<form action="#" id="form-reservation" class="reservation__form form">
+										<div class="form__items">
+											<div class="form__item">
+												<label for="formName" class="form__label">Желаемая дата</label>
+												<div class="form__block-input">
+													<input id="formName" autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="дд.мм.гггг" class="form__input">
+													<div class="form__logo _icon-Group"></div>
+												</div>
+											</div>
+											<div class="form__item">
+												<label for="formName" class="form__label">Количество человек</label>
+												<div class="form__block-input form__quantity quantity">
+													<button type="button" class="quantity__button quantity__button_minus"> - </button>
+													<div class="quantity__input">
+														<input autocomplete="off" type="text" name="form[]" value="1">
+													</div>
+													<button type="button" class="quantity__button quantity__button_plus"> + </button>
+												</div>
+											</div>
+											<div class="form__item">
+												<label for="formName" class="form__label">Телефон или WhatsApp</label>
+												<div class="form__block-input">
+													<input id="formName" autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="" class="form__input">
+													<div class="form__logo _icon-phoneform"></div>
+												</div>
+											</div>
+											<div class="form__item">
+												<label for="formName" class="form__label">Как к Вам обращаться?</label>
+												<div class="form__block-input">
+													<input id="formName" autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="" class="form__input">
+													<div class="form__logo _icon-userform"></div>
+												</div>
+											</div>
+										</div>
+										<button type="submit" class="form__button">Забронировать</button>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="popup-info" aria-hidden="true" class="popup popup__power power">
+		<div class="popup__wrapper power__wrapper">
+			<div class="popup__content power__content">
+				<button data-close type="button" class="popup__close">Закрыть</button>
+				<div class="popup__text power__text">
+					<div class="power__title">Мощность: <span>72 л.с.</span></div>
+					<div class="power__sub-title">Двигатель: <span>1000 см3</span></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20220916190514"></script>
+	<script src="https://unpkg.com/aos@next/dist/aos.js?_v=20220916190514"></script>
+	<script>
+		AOS.init();
+	</script>
+</body>
+
+</html>
