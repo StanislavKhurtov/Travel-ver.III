@@ -364,9 +364,6 @@ body::after {
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
   transform: scale(1.1);
 }
-.noselect:hover svg {
-  animation: bounce 2s infinite linear;
-}
 @keyframes bounce {
   0% {
     transform: translateX(-50%) translateY(-50%);
