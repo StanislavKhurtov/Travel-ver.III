@@ -339,7 +339,6 @@ body::after {
   fill: #037e8c;
   position: absolute;
   transform: translateX(-50%) translateY(-50%);
-  animation: bounce 2s infinite linear;
 }
 @supports (width: clamp( 0.625rem , 0.525990099rem  +  0.495049505vw , 0.9375rem )) {
   .noselect svg {
